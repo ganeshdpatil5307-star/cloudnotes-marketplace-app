@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Persistent app data (mounted volume in dev)
+/data/
+*.pid
+
+# Test coverage
+coverage/
+
+# Build artifacts
+dist/
+build/
