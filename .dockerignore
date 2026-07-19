@@ -1,0 +1,29 @@
+# Version control
+.git
+.gitignore
+
+# Dependencies (installed fresh in the build stage)
+node_modules
+npm-debug.log*
+
+# Environment / secrets - never bake into the image
+.env
+.env.local
+.env.*.local
+
+# Editor/OS
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Docs and repo metadata not needed at runtime
+docs
+README.md
+LICENSE
+.github
+
+# Local persistent data / test artifacts
+/data
+coverage
+test
